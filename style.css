@@ -1,0 +1,69 @@
+.header{
+    margin:0px;
+   
+    
+
+}
+.header-item .header-image{
+    height: 669px;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+}
+.header-item .header-item-title{
+    width: 700px;
+    color: #0f0e0e;
+text-align: center;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+
+}
+.header-item .header-item-subtitle{
+    width: 500px;
+    color: #707070;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+    
+}
+.btn-primary{
+    background-color: orangered;
+    color:white;
+    width: 160px;
+padding: 16px 12px;
+font-size: 20px;
+font-weight: 600;
+border-radius:8px;
+border:0;
+}
+.main{
+    align-items: center;
+}
+
+.main-contain .main-contain-item1{
+    display:flex;
+    align-items: center;
+}
+.main-contain-item1 .main-contain-box{
+   width:90px;
+   height:80px;
+    border-radius: 5px;
+background: #eae7e7;
+margin-right:22px;
+text-align: center;
+}
+.main-comment{
+    color: #B3B3B3;
+text-align: center;
+
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+
+}
+
