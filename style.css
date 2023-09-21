@@ -1,3 +1,6 @@
+body{
+    margin:0px;
+}
 .header{
     margin:0px;
    
@@ -42,21 +45,55 @@ border-radius:8px;
 border:0;
 }
 .main{
-    align-items: center;
+    text-align: center;
 }
+.main-contain .main-contain-title{
+    color: #070606;
+text-align: center;
+font-size: 45px;
 
+font-weight: 700;
+
+}
+.main-contain .main-contain-subtitle{
+    color: #707070;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
 .main-contain .main-contain-item1{
     display:flex;
-    align-items: center;
+    margin:50px 315px 60px 425px;
 }
 .main-contain-item1 .main-contain-box{
    width:90px;
    height:80px;
     border-radius: 5px;
 background: #eae7e7;
-margin-right:22px;
+color: #707070;
 text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+margin-right:22px;
 }
+.main-contain-item1 .main-contain-box2{
+    width:90px;
+    height:80px;
+    border-radius: 5px;
+border: 2px solid #FF5959;
+background: #FEE;
+
+ color: orangered;
+ text-align: center;
+ font-family: Inter;
+ font-size: 30px;
+ font-weight: 700;
+ margin-right:22px;
+ }
 .main-comment{
     color: #B3B3B3;
 text-align: center;
@@ -65,5 +102,170 @@ font-family: Poppins;
 font-size: 18px;
 font-weight: 400;
 
+}
+.underline{
+    width: 765px;
+height: 0px;
+margin-top:10px;
+margin-bottom: 30px;
+}
+.plan .plan-container-item2{
+    display: flex;
+}
+.contribute .contribute-item1{
+    display:flex;
+ }
+ .contribute-text{
+     margin:182px 30px 0px 156px;
+ }
+ .contribute-item1 .contribute-item-title{
+     color: #121212;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-family: Inter;
+ font-size: 45px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ width: 492px;
+ 
+ 
+ }
+ .contribute-item1 .contribute-item-subtitle{
+     color: #707070;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-family: Poppins;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 28px; 
+ width: 482px;/* 155.556% */
+ margin-top:20px;
+ }
+ .contribute-item2 .contribute-item-title{
+     color: #121212;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-family: Inter;
+ font-size: 45px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ width: 333px;
+ margin-top:80px;
+ 
+ }
+ .contribute-item2 .contribute-item-subtitle{
+     color: #707070;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-family: Poppins;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 28px; 
+ width: 482px;/* 155.556% */
+ margin-top:20px;
+ }
+ .contribute .contribute-item2{
+     display:flex;
+ }
+ .contribute-item1 .contribute-item1-image{
+     width: 825px;
+ height: 550px;
+     background-image: url('images/donation6.jpg');
+     background-repeat: no-repeat;
+     background-position: right;
+     margin:111px 231px 0px 0px;
+ 
+ }
+ .contribute-item2 .contribute-item2-image{
+     width: 456px;
+ height: 477px;
+     background-image: url('images/donation11.jpg');
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: cover;
+     margin:90px 60px 0px 156px;
+ 
+ }
+ .contribute-item1 .btn-primary{
+     width:230px;
+     height:56px;
+     margin-bottom: 100px;
+    
+ }
+ .contribute-item2 .btn-primary{
+     margin-bottom: 197px;
+     width:230px;
+     height:56px;
+ }
+ .update{
+     text-align:center;
+     
+ }
+ 
+ .update-text .update-item-title{
+     color: #121212;
+     text-align: center;
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 700;
+     margin-bottom: 20px;
+    
+ }
+ .update-text .update-item-subtitle{
+     
+     color: #707070;
+ text-align: center;
+ font-family: Poppins;
+ font-size: 18px;
+ font-weight: 400;
+ 
+ }
+ .update-form{
+     width: 950px;
+ height: 200px;
+ background: #FFF4D6;
+ margin:50px 315px 130px 316px;
+ 
+ }
+ .update #email{
+     border:0;
+     width: 275px;
+ height: 48px;
+ border-radius: 5px 0px 0px 5px;
+ background: #D9D9D9;
+ margin:72px 0px 76px 189px;
+ 
+ 
+ }
+ .update .btn-primary{
+     border:0;
+     width: 157px;
+ height: 48px;
+ border-radius: 0px 5px 5px 0px;
+ margin:90px 188px 76px 0px;
+ }
+
+/*footer style*/
+.footer{
+    background-color: black;
+    text-align: center;
+    margin:0px;
+
+}
+.footer h3{
+    color: #FF5959;
+    padding-top: 43px;
+font-size: 36px;
+font-weight: 400px;
+margin-bottom: 24px;
+}
+
+.footer p{
+    color:#eae7e7;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400px;
+    padding-bottom: 42px;
+    
 }
 
