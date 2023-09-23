@@ -3,35 +3,46 @@ body{
 }
 .header{
     margin:0px;
-   
-    
+}
+.header-item{
+    position: relative;
 
 }
-.header-item .header-image{
-    height: 669px;
-    background-image: url(images/donation1.jpg);
+.header-item img{
+    width:100%;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(1px);
+    margin-bottom: 130px;
 }
+.header-item-text{
+    text-align: center;
+    position: absolute;
+    top:0;
+    padding-top: 174px;
+    padding-left:307px;
+    
+    
+}
+
+
 .header-item .header-item-title{
-    width: 700px;
-    color: #0f0e0e;
-text-align: center;
-font-family: Inter;
+
+color: #FFF;
 font-size: 50px;
-font-style: normal;
 font-weight: 700;
+width: 800px;
+margin-bottom: 20px;
 
 }
 .header-item .header-item-subtitle{
-    width: 500px;
-    color: #707070;
-text-align: center;
-font-family: Poppins;
+    width: 691px;
+   color:white;
 font-size: 18px;
-font-style: normal;
 font-weight: 400;
+margin-bottom: 35px;
+padding-left:68px;
     
 }
 .btn-primary{
@@ -62,7 +73,9 @@ font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 28px; /* 155.556% */
+line-height: 28px;
+width: 691px;
+padding-left:375px; /* 155.556% */
 }
 .main-contain .main-contain-item1{
     display:flex;
@@ -109,8 +122,78 @@ height: 0px;
 margin-top:10px;
 margin-bottom: 30px;
 }
+.plan{
+    text-align: center;
+}
 .plan .plan-container-item2{
     display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.plan-container-item1 .plan-container-title{
+    color: #121212;
+text-align: center;
+font-size: 45px;
+font-weight: 700;
+
+
+}
+.plan-container-item1 .plan-container-subtitle{
+color: #707070;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.plan-container-item2 .plan-contain-box1{
+    width: 360px;
+height: 352px;
+border-radius: 5px;
+background: rgba(79, 157, 166, 0.10);
+border:0;
+margin-right:24px;
+padding-left:23px;
+padding-top:63px;
+
+}
+.plan-container-item2 .plan-contain-box2{
+    width: 360px;
+height: 352px;
+border-radius: 5px;
+background: rgba(255, 89, 89, 0.10);
+border:0;
+margin-right:24px;
+padding-left:23px;
+padding-top:63px;
+
+}
+.plan-container-item2 .plan-contain-box3{
+    width: 360px;
+height: 352px;
+border-radius: 5px;
+background:#FFF4D6;
+border:0;
+padding-left:23px;
+padding-top:63px;
+}
+.plan-container-item2 .plan-contain-box-title{
+    color: #121212;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top:30px;
+margin-bottom: 16px;
+
+}
+.plan-container-item2 .plan-contain-box-subtitle{
+    color: #707070;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    
 }
 .contribute .contribute-item1{
     display:flex;
@@ -140,6 +223,9 @@ margin-bottom: 30px;
  line-height: 28px; 
  width: 482px;/* 155.556% */
  margin-top:20px;
+ width: 315px;
+height: 101px;
+
  }
  .contribute-item2 .contribute-item-title{
      color: #121212;
@@ -218,6 +304,8 @@ margin-bottom: 30px;
  font-family: Poppins;
  font-size: 18px;
  font-weight: 400;
+ width: 691px;
+ padding-left:375px;
  
  }
  .update-form{
